@@ -1,22 +1,483 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0d12">
-<meta name="description" content="Gagan Warade — Senior SDET specializing in test automation, Playwright, Python, API testing, CI/CD and AI-powered quality engineering.">
-<title>Gagan Warade | Senior SDET & Automation Engineer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#0b0d12;--panel:#11151d;--panel2:#151a24;--text:#eef2f8;--muted:#9ba6b8;--line:#252d3b;--accent:#b7f36b;--blue:#8db6ff;--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 20%,rgba(183,243,107,.12),transparent 20%),linear-gradient(180deg,#0a0d14,#0b121a 35%,#0b0d12);color:var(--text);font-family:Manrope,system-ui,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}p{margin:0}.wrap{width:min(var(--max),calc(100% - 32px));margin-inline:auto}.mono,.eyebrow,.tag,.jobdate,.company,.techline,.hero-badge{font-family:"DM Mono",monospace}.nav{position:sticky;top:0;z-index:20;background:rgba(11,13,18,.9);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.06)}.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:-.08em;font-size:1.3rem}.brand span{color:var(--accent)}.navlinks{display:flex;gap:22px;flex-wrap:wrap}.navlinks a{color:var(--muted);font-size:.76rem;text-transform:uppercase;letter-spacing:.12em}.navlinks a:hover{color:var(--accent)}.hero{display:grid;grid-template-columns:1.14fr .86fr;align-items:center;gap:56px;min-height:calc(100vh - 140px);padding:52px 0 24px}.eyebrow{color:var(--accent);letter-spacing:.14em;text-transform:uppercase;font-size:.76rem}.hero h1{margin:16px 0 18px;font-size:clamp(4.2rem,7vw,9rem);line-height:.9;letter-spacing:-.08em;font-weight:800}.hero h1 span{color:var(--accent)}.hero p{color:var(--muted);max-width:645px;font-size:1.04rem}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:10px;border:1px solid var(--line);font-weight:600;transition:.2s ease}.btn:hover{transform:translateY(-2px)}.btn.primary{background:var(--accent);color:#0d0f12;border-color:var(--accent)}.btn.secondary{color:var(--text);background:rgba(255,255,255,.02)}.hero-visual{display:flex;justify-content:center}.portrait-frame{position:relative;width:min(100%,420px);padding:18px;border:1px solid rgba(183,243,107,.12);border-radius:20px;background:linear-gradient(180deg,rgba(15,22,32,.95),rgba(19,22,28,.85));box-shadow:0 30px 60px rgba(0,0,0,.45)}.portrait-frame::before{content:"";position:absolute;inset:10px;border:1px solid rgba(255,255,255,.08);border-radius:12px;pointer-events:none}.portrait-inner{overflow:hidden;border-radius:16px;border:1px solid rgba(255,255,255,.14);background:#d8e6ea;min-height:490px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}.portrait-inner img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:saturate(.9) contrast(1.05)}.section{padding:78px 0}.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px}.section h2{margin:0;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.05;letter-spacing:-.07em}.section-intro{max-width:500px;color:var(--muted);font-size:.95rem}.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:22px}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}.pill{display:inline-block;padding:6px 10px;border:1px solid rgba(183,243,107,.5);border-radius:999px;color:var(--accent);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}.focus-list{display:grid;gap:16px;margin-top:20px}.focus{display:flex;gap:12px;align-items:flex-start}.check{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:rgba(183,243,107,.15);color:var(--accent);font-weight:700}.focus b{display:block;font-size:1.02rem;margin-bottom:2px}.focus small{color:var(--muted)}.skills-grid{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:20px}.skillbox{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}.skillbox h3{margin:0 0 14px;font-size:1.1rem}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{display:inline-block;padding:6px 10px;border:1px solid rgba(141,182,255,.3);border-radius:999px;background:rgba(141,182,255,.06);color:#dfeafc;font-size:.72rem}.timeline{display:grid;gap:20px}.job{display:grid;grid-template-columns:160px 1fr;gap:26px;padding:26px;border-radius:16px;background:var(--panel);border:1px solid var(--line)}.jobdate{color:var(--accent);font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;padding-top:6px}.job h3{margin:0 0 8px;font-size:1.35rem}.company{color:var(--muted);font-size:.9rem;margin-bottom:12px}.job ul{margin:0;padding-left:20px;color:var(--muted)}.job li+li{margin-top:8px}.techline{font-size:.76rem;color:var(--blue);margin-top:16px}.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.project{min-height:220px;display:flex;flex-direction:column;justify-content:space-between;padding:22px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,#151b26,#101821)}.number{font-family:"DM Mono",monospace;color:var(--accent);font-size:.9rem;margin-bottom:10px}.project h3{margin:0 0 10px;font-size:1.4rem}.project p{color:var(--muted)}.certs{display:grid;grid-template-columns:1fr 1fr;gap:20px}.cert,.edu{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}.cert-title{display:flex;align-items:center;gap:12px;margin-bottom:10px}.icon{display:inline-flex;width:38px;height:38px;border-radius:12px;justify-content:center;align-items:center;background:rgba(183,243,107,.08);border:1px solid rgba(183,243,107,.3);color:var(--accent);font-weight:700}.edu{padding:18px 22px}.edu h3{margin:0 0 6px;font-size:1.2rem}.edu p{color:var(--muted)}.contactbox{padding:28px;background:linear-gradient(180deg,#111827,#101821);border:1px solid var(--line);border-radius:18px}.contactbox h2{margin:10px 0}.contact-links{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}.contact-links a{color:var(--accent)}.footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:26px 0 42px;color:var(--muted);border-top:1px solid var(--line)}.footer a{color:var(--accent)}@media(max-width:800px){.navlinks{gap:12px}.hero{grid-template-columns:1fr;min-height:auto;padding-top:62px}.section-head{display:block}.skills-grid,.projects,.certs,.about-grid{grid-template-columns:1fr 1fr}.portrait-inner{min-height:420px}.job{grid-template-columns:1fr}}@media(max-width:560px){.skills-grid,.projects,.certs,.about-grid{grid-template-columns:1fr}.job{grid-template-columns:1fr}.hero h1{font-size:clamp(2.7rem,15vw,4.5rem)}.footer{flex-direction:column}} 
-</style></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Gagan Warade — Senior SDET specializing in test automation, Playwright, Python, API testing, CI/CD and AI-powered quality engineering.">
+  <title>Gagan Warade | Senior SDET & Automation Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#070b11;
+      --bg-2:#0b111b;
+      --panel:#101822;
+      --panel-2:#141d2b;
+      --text:#edf3fa;
+      --muted:#9aa7b7;
+      --line:rgba(255,255,255,0.08);
+      --accent:#b8f36b;
+      --accent-2:#8eea5d;
+      --blue:#8cb8ff;
+      --shadow:rgba(0,0,0,0.42);
+      --max:1180px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:'Inter',sans-serif;
+      background:
+        radial-gradient(circle at 25% 15%, rgba(122,164,255,0.10), transparent 32%),
+        radial-gradient(circle at 80% 25%, rgba(184,243,107,0.12), transparent 34%),
+        linear-gradient(180deg, #070b11 0%, #0a1018 100%);
+      color:var(--text);
+      min-height:100vh;
+    }
+
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+
+    .wrap{width:min(var(--max), calc(100% - 38px));margin:0 auto}
+
+    .nav{
+      position:sticky;
+      top:0;
+      z-index:10;
+      background:rgba(7,11,17,0.72);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .navin{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      height:74px;
+      gap:24px;
+    }
+
+    .brand{
+      font-family:'DM Mono',monospace;
+      font-weight:700;
+      font-size:2.05rem;
+      letter-spacing:-0.08em;
+      color:var(--text);
+    }
+
+    .brand span{color:var(--accent)}
+
+    .navlinks{
+      display:flex;
+      align-items:center;
+      gap:30px;
+      font-family:'DM Mono',monospace;
+      font-size:0.76rem;
+      letter-spacing:0.1em;
+      text-transform:uppercase;
+      color:var(--muted);
+    }
+
+    .navlinks a{opacity:.85;transition:opacity .2s ease,color .2s ease}
+    .navlinks a:hover{opacity:1;color:var(--text)}
+
+    .hero{
+      display:grid;
+      grid-template-columns:1.1fr 0.9fr;
+      align-items:center;
+      min-height:calc(100vh - 74px);
+      gap:32px;
+      padding:56px 0 42px;
+      position:relative;
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:10% 25% 8% 15%;
+      background:radial-gradient(circle, rgba(152, 228, 105, 0.12), transparent 55%);
+      filter:blur(28px);
+      pointer-events:none;
+    }
+
+    .hero-copy{
+      position:relative;
+      z-index:1;
+      max-width:600px;
+    }
+
+    .eyebrow{
+      display:inline-block;
+      font-family:'DM Mono',monospace;
+      font-size:0.78rem;
+      letter-spacing:0.25em;
+      text-transform:uppercase;
+      color:var(--accent);
+      margin-bottom:20px;
+      opacity:0.95;
+    }
+
+    h1{
+      margin:0;
+      font-size:clamp(4rem, 6vw, 8.5rem);
+      line-height:0.88;
+      letter-spacing:-0.07em;
+      font-weight:800;
+      color:var(--text);
+    }
+
+    h1 span{
+      color:var(--accent);
+      display:inline-block;
+      text-shadow:0 0 28px rgba(184,243,107,0.25);
+    }
+
+    .hero-copy p{
+      max-width:560px;
+      margin:26px 0 0;
+      color:var(--muted);
+      font-size:1.14rem;
+      line-height:1.7;
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:26px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      height:48px;
+      padding:0 20px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,0.16);
+      font-weight:600;
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+
+    .btn:hover{transform:translateY(-1px)}
+
+    .btn-primary{
+      background:linear-gradient(180deg, var(--accent) 0%, var(--accent-2) 100%);
+      border-color:transparent;
+      color:#07110b;
+      box-shadow:0 10px 22px rgba(184,243,107,0.25);
+    }
+
+    .btn-secondary{
+      background:rgba(255,255,255,0.01);
+      color:var(--text);
+      border-color:rgba(255,255,255,0.12);
+    }
+
+    .hero-visual{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+      z-index:1;
+    }
+
+    .photo-shell{
+      position:relative;
+      width:min(100%, 480px);
+      min-height:470px;
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:22px;
+      box-shadow:0 18px 40px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.05);
+      padding:18px 18px 0;
+      transform:translateY(18px);
+    }
+
+    .photo-shell::before{
+      content:"";
+      position:absolute;
+      inset:18px 18px 0 18px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      border-radius:18px;
+      z-index:0;
+    }
+
+    .photo-shell img{
+      position:relative;
+      z-index:1;
+      width:100%;
+      height:420px;
+      object-fit:cover;
+      border-radius:18px;
+      background:#dfe9f2;
+      border:1px solid rgba(255,255,255,0.06);
+      box-shadow:0 18px 26px rgba(0,0,0,0.18);
+    }
+
+    .section{padding:80px 0}
+    .section-head{
+      display:flex;
+      align-items:end;
+      justify-content:space-between;
+      gap:40px;
+      margin-bottom:32px;
+    }
+
+    .section-head h2{
+      margin:0;
+      font-size:clamp(2.2rem,4vw,4rem);
+      letter-spacing:-0.06em;
+      line-height:0.96;
+    }
+
+    .section-intro{max-width:560px;color:var(--muted);line-height:1.8}
+
+    .eyebrow-plain{
+      display:inline-block;
+      font-family:'DM Mono',monospace;
+      letter-spacing:0.25em;
+      text-transform:uppercase;
+      color:var(--accent);
+      margin-bottom:12px;
+      font-size:0.72rem;
+    }
+
+    .about-grid,
+    .certs,
+    .grid-3,
+    .contactbox{display:grid;gap:18px}
+
+    .about-grid{grid-template-columns:1.2fr .8fr}
+    .cards{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
+
+    .card,
+    .contactbox,
+    .project-card,
+    .cert{
+      background:rgba(16,24,34,.72);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:22px;
+      box-shadow:0 14px 24px rgba(0,0,0,0.12);
+    }
+
+    .card h3,.project-card h3{margin:0 0 10px;font-size:1.2rem}
+    .card p,.project-card p,.contactbox p,.cert p{color:var(--muted);line-height:1.7;margin:0}
+
+    .stats{display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:12px;margin-top:18px}
+    .stat{background:rgba(255,255,255,0.02);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .stat strong{display:block;font-size:2.2rem;color:var(--accent);font-family:'DM Mono',monospace;letter-spacing:-0.08em}
+    .stat span{display:block;color:var(--muted);margin-top:8px}
+
+    .footer{
+      display:flex;justify-content:space-between;align-items:center;gap:20px;
+      padding:20px 0 42px;color:var(--muted);font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;font-family:'DM Mono',monospace;border-top:1px solid var(--line)
+    }
+
+    @media (max-width:900px){
+      .hero{
+        grid-template-columns:1fr;
+        text-align:center;
+        padding-top:36px;
+      }
+      .hero-copy{max-width:none}
+      .hero-copy p{margin-left:auto;margin-right:auto}
+      .cta-row{justify-content:center}
+      .navlinks{display:none}
+      .section-head{display:block}
+      .about-grid{grid-template-columns:1fr}
+      .cards{grid-template-columns:1fr}
+      .footer{flex-direction:column;text-align:center}
+    }
+  </style>
+</head>
 <body>
-<header class="nav"><div class="wrap navin"><a class="brand" href="#home">GW<span>.</span></a><nav class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
-<main>
-<section class="wrap hero" id="home"><div><div class="eyebrow">Senior Software Development Engineer in Test</div><h1>Quality built<br>into <span>every</span><br>release.</h1><p>I'm Gagan Warade — an SDET with 6+ years of experience building scalable test automation, reliable data validation, and AI-assisted quality engineering workflows across cyber intelligence, fintech, and enterprise data platforms.</p><div class="actions"><a class="btn primary" href="#experience">Explore my work</a><a class="btn secondary" href="Gagan_Warade_Resume.pdf" target="_blank" rel="noreferrer">View resume</a><a class="btn secondary" href="mailto:gaganwarade77@gmail.com">Contact me</a></div></div><div class="hero-visual"><div class="portrait-frame"><div class="portrait-inner"><img src="https://raw.githubusercontent.com/Waradeg/gagan-warade-portfolio/main/Screenshot%202026-10-23%20201221.png" alt="Portrait of Gagan Warade"></div></div></div></section>
-<section class="section" id="about"><div class="wrap"><div class="section-head"><div><div class="eyebrow">01 / Introduction</div><h2>Engineering confidence,<br>not just test scripts.</h2></div><p class="section-intro">I enjoy solving complex quality challenges by combining thoughtful framework design, pragmatic automation, and developer-friendly delivery workflows.</p></div><div class="about-grid"><div class="card"><span class="pill">About me</span><p>Across my work at Cognyte, CITCO, and TIAA, I’ve designed automation frameworks from scratch, modernized legacy testing infrastructure, validated APIs and data pipelines at scale, and integrated tests into CI/CD. I’m also exploring how GenAI and AI agents can reduce repetitive engineering work while improving trust in delivery.</p><div class="focus-list"><div class="focus"><span class="check">✓</span><div><b>Framework architecture</b><small>Maintainable, reusable automation foundations.</small></div></div><div class="focus"><span class="check">✓</span><div><b>Full-stack quality</b><small>UI, API, database, integration, and regression testing.</small></div></div><div class="focus"><span class="check">✓</span><div><b>Continuous quality</b><small>CI/CD integration, pipeline stability, and fast feedback.</small></div></div><div class="focus"><span class="check">✓</span><div><b>AI-assisted engineering</b><small>AI agents and automation for pull-request review, validation, and triage.</small></div></div></div></div><div class="card"><span class="pill">What I bring</span><p>I build quality into product delivery, not as a final checkpoint. My approach combines automation strategy, resilient data checks, and strong collaboration with developers and QA teams to improve confidence at every release stage.</p><div class="focus-list"><div class="focus"><span class="check">✓</span><div><b>Release confidence</b><small>Reducing risk through repeatable validation.</small></div></div><div class="focus"><span class="check">✓</span><div><b>Cross-functional impact</b><small>Working across product, dev, and platform teams.</small></div></div><div class="focus"><span class="check">✓</span><div><b>Practical delivery</b><small>Automation that is reliable, measurable, and easy to maintain.</small></div></div></div></div></div></div></section>
-<section class="section" id="skills"><div class="wrap"><div class="section-head"><div><div class="eyebrow">02 / Toolkit</div><h2>Tools I work with.</h2></div><p class="section-intro">A practical toolkit for test automation, cloud data validation, and modern engineering workflows.</p></div><div class="skills-grid"><div class="skillbox"><h3>Programming</h3><div class="tags"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">SQL</span></div></div><div class="skillbox"><h3>Automation</h3><div class="tags"><span class="tag">Playwright</span><span class="tag">Selenium</span><span class="tag">WebDriverIO</span><span class="tag">PyTest</span><span class="tag">Cucumber</span><span class="tag">Gauge</span></div></div><div class="skillbox"><h3>API & Backend</h3><div class="tags"><span class="tag">REST API</span><span class="tag">Postman</span><span class="tag">SoapUI</span><span class="tag">Backend testing</span></div></div><div class="skillbox"><h3>DevOps & CI/CD</h3><div class="tags"><span class="tag">Jenkins</span><span class="tag">Git</span><span class="tag">GitHub Actions</span><span class="tag">Bitbucket</span><span class="tag">AWS</span></div></div><div class="skillbox"><h3>Cloud & Data</h3><div class="tags"><span class="tag">AWS S3 / EC2</span><span class="tag">Databricks</span><span class="tag">DBEaver</span><span class="tag">ETL validation</span><span class="tag">Linux</span></div></div><div class="skillbox"><h3>AI & Patterns</h3><div class="tags"><span class="tag">AI Agents</span><span class="tag">Amazon Q</span><span class="tag">GitHub Copilot</span><span class="tag">Cursor AI</span><span class="tag">POO</span><span class="tag">Data-driven</span></div></div></div></div></section>
-<section class="section" id="experience"><div class="wrap"><div class="section-head"><div><div class="eyebrow">03 / Career</div><h2>Experience that ships.</h2></div><p class="section-intro">Building dependable quality practices across security intelligence, enterprise data, and financial platforms.</p></div><div class="timeline"><article class="job"><div class="jobdate">2025 — PRESENT</div><div><h3>QA Software Developer in Test</h3><div class="company">Cognyte · Vantage Platform & MCCX Integration</div><ul><li>Designed and scaled automation for complex cyber intelligence applications and end-to-end workflows using Playwright.</li><li>Developed AI-powered agents using internal engineering documentation to reduce manual validation effort.</li><li>Led a proof of concept for AI-assisted code-quality checks in CI/CD.</li><li>Analyzed defects and improved framework stability to reduce flaky pipeline tests.</li></ul><div class="techline">JAVA · JAVASCRIPT · PLAYWRIGHT · AI AGENTS · JENKINS</div></div></article><article class="job"><div class="jobdate">2023 — 2025</div><div><h3>QA Software Development Engineer in Test</h3><div class="company">CITCO · Enterprise Data Services & Databricks Migration</div><ul><li>Built a scalable API automation framework from scratch using Python and PyTest.</li><li>Automated high-volume data ingestion validations in Databricks and performed SQL-based data quality checks.</li><li>Maintained Playwright UI suites for financial reporting systems and tested across DEV and UAT.</li><li>Integrated automated tests into Jenkins for continuous test-on-commit feedback.</li></ul><div class="techline">PYTHON · PYTEST · PLAYWRIGHT · DATABRICKS · AWS · SQL</div></div></article><article class="job"><div class="jobdate">2020 — 2023</div><div><h3>QA Automation Tester</h3><div class="company">TIAA · Brokerage & Digital Retirement Platforms</div><ul><li>Modernized and stabilized Selenium and WebDriverIO frameworks, reducing regression execution time.</li><li>Migrated legacy Puppeteer and Protractor suites to modern automation solutions.</li><li>Developed API tests using SoapUI and Postman for core financial web services.</li><li>Configured Jenkins execution nodes for scheduled regression builds and QA reporting.</li></ul><div class="techline">SELENIUM · WEBDRIVERIO · JAVASCRIPT · JENKINS · AWS · CODEBUILD</div></div></article></div></div></section>
-<section class="section" id="projects"><div class="wrap"><div class="section-head"><div><div class="eyebrow">04 / Selected domains</div><h2>Problems worth testing.</h2></div><p class="section-intro">A snapshot of the platforms and engineering initiatives described in my professional experience.</p></div><div class="projects"><article class="project"><div class="number">PROJECT / 01</div><h3>AI-powered PR review automation</h3><p>Proof of concept for automated code-quality checks integrated into the pull-request and CI/CD workflow.</p></article><article class="project"><div class="number">PROJECT / 02</div><h3>Cyber intelligence platform</h3><p>End-to-end automation and regression risk reduction for complex threat-monitoring and cyber intelligence workflows.</p></article><article class="project"><div class="number">PROJECT / 03</div><h3>Enterprise data & Databricks migration</h3><p>API and cloud data pipeline validation focused on ingestion integrity, database quality, and enterprise reporting.</p></article><article class="project"><div class="number">PROJECT / 04</div><h3>Enterprise banking platforms</h3><p>Automation across brokerage, retirement, and financial services with UI, API, and scheduled regression coverage.</p></article></div><p style="color:var(--muted);font-size:.8rem;margin-top:18px;">Note: Project summaries are based on the domains and responsibilities listed in my resume; confidential implementation details are intentionally omitted.</p></div></section>
-<section class="section" id="certifications"><div class="wrap"><div class="section-head"><div><div class="eyebrow">05 / Learning</div><h2>Certifications & education.</h2></div></div><div class="certs"><div class="cert"><div class="cert-title"><div class="icon">AI</div><div><b>Generative AI & Implementation Mindset</b><div class="mono" style="color:var(--muted);font-size:.76rem;margin-top:6px;">2026</div></div></div></div><div class="cert"><div class="cert-title"><div class="icon">AWS</div><div><b>AWS Certified Cloud Practitioner</b><div class="mono" style="color:var(--muted);font-size:.76rem;margin-top:6px;">2025</div></div></div></div><div class="cert"><div class="cert-title"><div class="icon">Py</div><div><b>Python Programming Language Certification</b><div class="mono" style="color:var(--muted);font-size:.76rem;margin-top:6px;">2024</div></div></div></div><div class="cert"><div class="cert-title"><div class="icon">SAFe</div><div><b>SAFe Agilist 5.1 Certification</b><div class="mono" style="color:var(--muted);font-size:.76rem;margin-top:6px;">2022</div></div></div></div></div><div class="edu" style="margin-top:20px"><div class="eyebrow" style="margin-bottom:8px">Education</div><div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center"><span class="mono" style="color:var(--muted)">2015 — 2019</span><h3 style="margin:0">Bachelor of Engineering</h3></div><p>The University of Pune</p></div></div></section>
-<section class="section" id="contact"><div class="wrap"><div class="contactbox"><div class="eyebrow">06 / Get in touch</div><h2>Let’s make quality a competitive advantage.</h2><p>Have an interesting automation or quality engineering challenge? Let’s connect.</p><div class="actions"><a class="btn primary" href="mailto:gaganwarade77@gmail.com">Send me an email</a><a class="btn secondary" href="Gagan_Warade_Resume.pdf" target="_blank" rel="noreferrer">Download resume</a></div><div class="contact-links"><a href="mailto:gaganwarade77@gmail.com">gaganwarade77@gmail.com</a><a href="tel:+919834021433">+91 98340 21433</a></div></div></div></section>
-</main><footer class="wrap footer"><span>© <span id="year"></span> GAGAN WARDE</span><span>BUILT WITH CURIOSITY · TESTED WITH CARE</span><a href="#home">BACK TO TOP ↑</a></footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script>
-</body></html>
+  <header class="nav">
+    <div class="wrap navin">
+      <a class="brand" href="#home">GW<span>.</span></a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">Senior Software Development Engineer in Test</div>
+        <h1>Quality built<br>into <span>every</span><br>release.</h1>
+        <p>
+          I'm Gagan Warade — an SDET with 6+ years of experience building scalable test automation,
+          reliable data validation, and AI-assisted quality engineering workflows across cyber
+          intelligence, fintech, and data platforms.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">Explore my work</a>
+          <a class="btn btn-secondary" href="#experience">View resume</a>
+          <a class="btn btn-secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Gagan Warade portrait">
+        <div class="photo-shell">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Portrait of Gagan Warade">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow-plain">01 / Introduction</div>
+            <h2>Engineering confidence,<br>not just test scripts.</h2>
+          </div>
+          <p class="section-intro">
+            I help teams deliver reliable software by combining automation strategy, testing architecture,
+            and practical engineering discipline. My focus is on reducing release risk while improving speed,
+            clarity, and product confidence.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>What I do</h3>
+            <p>Design and automate test frameworks for APIs, UI systems, data pipelines, and end-to-end releases.</p>
+          </div>
+          <div class="card">
+            <h3>How I work</h3>
+            <p>Collaborate closely with engineering, QA, and product teams to build repeatable quality gates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow-plain">02 / Toolkit</div>
+            <h2>Tools I work with.</h2>
+          </div>
+          <p class="section-intro">A practical toolkit for automation, validation, and continuous quality engineering.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Automation</h3>
+            <p>Playwright, Selenium, Python, JavaScript, API automation, CI/CD integration, test strategy.</p>
+          </div>
+          <div class="card">
+            <h3>Quality</h3>
+            <p>Functional, regression, performance validation, data integrity checks, release confidence models.</p>
+          </div>
+          <div class="card">
+            <h3>AI + DevOps</h3>
+            <p>AI-assisted testing workflows, observability, pipeline health, and engineering process improvement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow-plain">03 / Career</div>
+            <h2>Experience that ships.</h2>
+          </div>
+          <p class="section-intro">Building dependable automation systems that support delivery across complex technical environments.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Senior SDET</h3>
+            <p>Led automation strategy for enterprise-grade products and release pipelines.</p>
+          </div>
+          <div class="card">
+            <h3>Automation Engineer</h3>
+            <p>Built scalable frameworks for API and UI validation, improving defect detection and speed.</p>
+          </div>
+          <div class="card">
+            <h3>QA & Data Quality</h3>
+            <p>Implemented quality engineering practices that reduced risk and improved operational confidence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow-plain">04 / Selected domains</div>
+            <h2>Problems worth testing.</h2>
+          </div>
+          <p class="section-intro">Across cyber intelligence, fintech, and data platforms, I focus on high-risk product areas where reliability matters most.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Cyber intelligence</h3>
+            <p>Automation for security-focused platforms, data pipelines, and operational workflows.</p>
+          </div>
+          <div class="card">
+            <h3>Fintech</h3>
+            <p>Quality systems built around transaction safety, platform stability, and release confidence.</p>
+          </div>
+          <div class="card">
+            <h3>Data platforms</h3>
+            <p>Validation architecture for complex processing flows and high-volume data reliability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow-plain">05 / Learning</div>
+            <h2>Certifications & education.</h2>
+          </div>
+        </div>
+
+        <div class="certs">
+          <div class="cert">
+            <p>Automation and quality engineering certifications, with continued focus on modern testing and AI-enabled delivery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contactbox">
+          <div class="eyebrow-plain">06 / Get in touch</div>
+          <h2>Let’s make quality a competitive advantage.</h2>
+          <p>Have an interesting challenge or need a dependable test strategy? I’d be glad to connect.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="year"></span> GAGAN WARDE</span>
+    <span>BUILT WITH CURIOSITY · TESTED WITH CARE</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
