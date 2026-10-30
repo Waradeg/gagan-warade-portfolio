@@ -273,6 +273,27 @@
     .stat strong{display:block;font-size:2.2rem;color:var(--accent);font-family:'DM Mono',monospace;letter-spacing:-0.08em}
     .stat span{display:block;color:var(--muted);margin-top:8px}
 
+    .contact-list{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:18px;
+    }
+
+    .contact-link{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:10px;
+      border:1px solid rgba(255,255,255,0.1);
+      background:rgba(255,255,255,0.02);
+      color:var(--text);
+      font-family:'DM Mono',monospace;
+      font-size:0.75rem;
+      letter-spacing:0.04em;
+    }
+
     .footer{
       display:flex;justify-content:space-between;align-items:center;gap:20px;
       padding:20px 0 42px;color:var(--muted);font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;font-family:'DM Mono',monospace;border-top:1px solid var(--line)
@@ -292,6 +313,7 @@
       .about-grid{grid-template-columns:1fr}
       .cards{grid-template-columns:1fr}
       .footer{flex-direction:column;text-align:center}
+      .contact-list{justify-content:center}
     }
   </style>
 </head>
@@ -322,7 +344,7 @@
 
         <div class="cta-row">
           <a class="btn btn-primary" href="#projects">Explore my work</a>
-          <a class="btn btn-secondary" href="#experience">View resume</a>
+          <a class="btn btn-secondary" href="Gagan_Warade_Resume.pdf" target="_blank" rel="noopener noreferrer" download="Gagan_Warade_Resume.pdf">View resume</a>
           <a class="btn btn-secondary" href="#contact">Contact me</a>
         </div>
       </div>
@@ -465,6 +487,12 @@
           <div class="eyebrow-plain">06 / Get in touch</div>
           <h2>Let’s make quality a competitive advantage.</h2>
           <p>Have an interesting challenge or need a dependable test strategy? I’d be glad to connect.</p>
+
+          <div class="contact-list">
+            <a class="contact-link" href="tel:+919834021430">+91 9834021430</a>
+            <a class="contact-link" href="https://www.linkedin.com/in/gagan-warade-460b43379" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="contact-link" href="Gagan_Warade_Resume.pdf" target="_blank" rel="noopener noreferrer" download="Gagan_Warade_Resume.pdf">Resume</a>
+          </div>
         </div>
       </div>
     </section>
